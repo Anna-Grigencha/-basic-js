@@ -21,9 +21,6 @@ for (let i = 0; i< arr.length; i++) {
   if (arr[i] !== (-1)) {
     arr1.push (arr[i])
   }
- // else { count +=1;
-
- // }
 }
 arr1.sort((a, b) => a - b);
 console.log(arr1);
@@ -40,8 +37,6 @@ else if (arr[i]!== (-1)) {
 }
 }
 
-console.log(arr);
-console.log(result);
 return result;
 }
 
