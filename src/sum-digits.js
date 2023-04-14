@@ -20,9 +20,7 @@ function getSumOfDigits(n) {
   let str = n.toString();
 
   for (let i = 0; i < str.length; i++) {
-    //sum = 0;
     sum = sum + str[i] * 1;
-    // str = sum.toString();
   }
 
   if (sum >= 10) {
@@ -30,8 +28,6 @@ function getSumOfDigits(n) {
   }
 
   return sum;
-  // throw new NotImplementedError('Not implemented');
-  // remove line with error and write your code here
 }
 
 module.exports = {
