@@ -29,25 +29,25 @@ function minesweeper(matrix) {
     [0, 0, 0],
     [0, 0, 0]
   ];
-  
+
   throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
-for (let i = 0; i< matrix.length; i++ ){
-  for (let j = 0; j<matrix[i]; j++){
-    if (matrix[i][j] === true) {
-matrix[i-1][j] +=1;
-matrix[i-1][j] +=1;
-matrix[i][j-1] +=1;
-matrix[i][j+1] +=1;
-matrix[i-1][j-1] +=1;
-matrix[i+1][j+1] +=1;
-matrix[i-1][j+1] +=1;
-matrix[i+1][j-1] +=1;
+  for (let i = 0; i < matrix.length; i++) {
+    for (let j = 0; j < matrix[i]; j++) {
+      if (matrix[i][j] === true) {
+        matrix[i - 1][j] += 1;
+        matrix[i - 1][j] += 1;
+        matrix[i][j - 1] += 1;
+        matrix[i][j + 1] += 1;
+        matrix[i - 1][j - 1] += 1;
+        matrix[i + 1][j + 1] += 1;
+        matrix[i - 1][j + 1] += 1;
+        matrix[i + 1][j - 1] += 1;
+      }
     }
-  }
 
-}
-return result;
+  }
+  return result;
 
 }
 
