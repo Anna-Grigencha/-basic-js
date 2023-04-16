@@ -50,7 +50,6 @@ function minesweeper(matrix) {
     }
   }
   return arr;
-
 }
 
 module.exports = {
